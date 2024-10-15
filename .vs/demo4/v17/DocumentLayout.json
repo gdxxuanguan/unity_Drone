@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\unityprojects\\demo4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95FA8C49-0CCD-253E-CA1A-69A79308D81A}|Assembly-CSharp.csproj|e:\\unityprojects\\demo4\\assets\\drone_controller\\code\\scripts\\base_rigidbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FA8C49-0CCD-253E-CA1A-69A79308D81A}|Assembly-CSharp.csproj|solutionrelative:assets\\drone_controller\\code\\scripts\\base_rigidbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FA8C49-0CCD-253E-CA1A-69A79308D81A}|Assembly-CSharp.csproj|e:\\unityprojects\\demo4\\assets\\drone_controller\\code\\scripts\\drone_inputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FA8C49-0CCD-253E-CA1A-69A79308D81A}|Assembly-CSharp.csproj|solutionrelative:assets\\drone_controller\\code\\scripts\\drone_inputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Base_Rigidbody.cs",
+              "DocumentMoniker": "E:\\unityprojects\\demo4\\Assets\\Drone_controller\\Code\\Scripts\\Base_Rigidbody.cs",
+              "RelativeDocumentMoniker": "Assets\\Drone_controller\\Code\\Scripts\\Base_Rigidbody.cs",
+              "ToolTip": "E:\\unityprojects\\demo4\\Assets\\Drone_controller\\Code\\Scripts\\Base_Rigidbody.cs",
+              "RelativeToolTip": "Assets\\Drone_controller\\Code\\Scripts\\Base_Rigidbody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:30:48.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Drone_inputs.cs",
+              "DocumentMoniker": "E:\\unityprojects\\demo4\\Assets\\Drone_controller\\Code\\Scripts\\Drone_inputs.cs",
+              "RelativeDocumentMoniker": "Assets\\Drone_controller\\Code\\Scripts\\Drone_inputs.cs",
+              "ToolTip": "E:\\unityprojects\\demo4\\Assets\\Drone_controller\\Code\\Scripts\\Drone_inputs.cs",
+              "RelativeToolTip": "Assets\\Drone_controller\\Code\\Scripts\\Drone_inputs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:30:35.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
