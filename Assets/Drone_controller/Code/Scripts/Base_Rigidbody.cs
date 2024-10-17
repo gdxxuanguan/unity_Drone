@@ -9,17 +9,33 @@ namespace Myinputs
     {
         [Header("Rigidbody Properties")]
         [SerializeField]private float weightInLbs = 1f;
-        // Start is called before the first frame update
-        void Start()
-        {
+        const float lbs2kg = 0.454f;
+        protected float startDrag;
+        protected float startAngularDrag;
+        protected Rigidbody rb;
 
+        private void Awake()
+        {
+            rb = GetComponent<Rigidbody>();
+            if (rb)
+            {
+                rb.mass = weightInLbs * lbs2kg;
+                startDrag = rb.drag;
+                startAngularDrag = rb.angularDrag;
+            }
         }
 
-        // Update is called once per frame
-        void Update()
+        // FixedUpdate函数的调用频率是固定的
+        void FixedUpdate()
         {
-
+            if (!rb)
+            {
+                return;
+            }
+            HandlePhysics();
         }
+
+        protected virtual void HandlePhysics() { }
     }
 
 }
