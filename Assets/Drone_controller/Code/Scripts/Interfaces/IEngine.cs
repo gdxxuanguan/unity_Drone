@@ -8,6 +8,6 @@ namespace Myinputs
     {
         void InitEngine();
 
-        void UpdateEngine();
+        void UpdateEngine(Rigidbody rb,Drone_inputs input);
     }
 }

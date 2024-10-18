@@ -368,6 +368,7 @@
 "Assets/Drone_controller/Code/Scripts/Drone_controller.cs"
 "Assets/Drone_controller/Code/Scripts/Drone_engine.cs"
 "Assets/Drone_controller/Code/Scripts/Drone_inputs.cs"
+"Assets/Drone_controller/Code/Scripts/Engine_controller.cs"
 "Assets/Drone_controller/Code/Scripts/Interfaces/IEngine.cs"
 -langversion:9.0
 /deterministic
