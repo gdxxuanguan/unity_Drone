@@ -365,7 +365,10 @@
 -analyzer:"D:/unity/2022.3.43f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/unity/2022.3.43f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Drone_controller/Code/Scripts/Base_Rigidbody.cs"
+"Assets/Drone_controller/Code/Scripts/Drone_controller.cs"
+"Assets/Drone_controller/Code/Scripts/Drone_engine.cs"
 "Assets/Drone_controller/Code/Scripts/Drone_inputs.cs"
+"Assets/Drone_controller/Code/Scripts/Interfaces/IEngine.cs"
 -langversion:9.0
 /deterministic
 /optimize-

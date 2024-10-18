@@ -1,29 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 namespace Myinputs
 {
     [RequireComponent(typeof(Drone_inputs))]
     public class Drone_controller : Base_Rigidbody
     {
-        [Header("Drone Properties")]
+        [Header("Drone Control Properties")]
         [SerializeField] private float minMaxPitch = 30f;
         [SerializeField] private float minMaxRoll = 30f;
         [SerializeField] private float yawPower = 4f;
-        [SerializeField] private Drone_inputs inputs;
+        private Drone_inputs inputs;
+        private List<IEngine> engins = new List<IEngine>();
+
 
         // Start is called before the first frame update
         void Start()
         {
-
+            inputs = GetComponent<Drone_inputs>();
+            engins = GetComponentsInChildren<IEngine>().ToList<IEngine>();
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
 
         protected override void HandlePhysics()
         {
@@ -33,7 +32,7 @@ namespace Myinputs
 
         protected virtual void HandleEngines()
         {
-
+            rb.AddForce(Vector3.up * (rb.mass * Physics.gravity.magnitude));
         }
 
         protected virtual void HandleControls()
